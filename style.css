@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+body {
+  background-color: black;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.options {
+  height: 100px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.hand {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: black;
+}
+.text{
+    margin-top: 40px;
+}
+img {
+  width: 70px;
+}
+.stats {
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  font-size: 25px;
+}
+.winorlose {
+  height: 30px;
+  width: 100px;
+}
+button {
+  color: black;
+  height: 70px;
+  width: 150px;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
