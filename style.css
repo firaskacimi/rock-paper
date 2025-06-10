@@ -22,7 +22,7 @@ body {
   height: 100px;
   width: 500px;
   display: flex;
-  justify-content: space-evenly;
+  gap: 20px;
 }
 .hand {
   height: 150px;
